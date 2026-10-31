@@ -1,203 +1,112 @@
-    <!DOCTYPE html>
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>MONKEY Kicks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monkey Kicks | Tenis de diseñador</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="margin: 0; font-family: Arial; background-color: #111111; color: white;">
+<body>
+
+    <!-- MENÚ -->
+    <nav>
+        <a href="#inicio" class="logo">Monkey Kicks</a>
+        <div class="enlaces">
+            <a href="#inicio">Inicio</a>
+            <a href="#tenis">Tenis</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
 
     <!-- ENCABEZADO -->
-    <div style="
-        background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZ7sEkN5EQB7XJdv6pbIH-lBLG7DgQlMKqbCJKuyDTA&s=10);
-        background-size: cover;
-        background-position: center;
-        height: 400px;
-        text-align: center;
-        padding-top: 50px;
-    ">
-
-        <h1 style="font-size: 60px; color: white;">
-            MONKEY KICKS
-        </h1>
-
+    <header class="hero" id="inicio">
+        <h1>MONKEY KICKS</h1>
         <h2>Tenis de diseñador</h2>
-
         <p>Estilo. Exclusividad. Calidad.</p>
-
-        <button style="
-            background-color: #ffcc00;
-            border: none;
-            padding: 15px 30px;
-            font-size: 18px;
-        ">
-            VER TENIS
-        </button>
-
-    </div>
-
-    <!-- MENU -->
-    <div style="
-        background-color: #222222;
-        text-align: center;
-        padding: 20px;
-    ">
-
-        <a href="#" style="color: white; margin: 20px;">Inicio</a>
-        <a href="#" style="color: white; margin: 20px;">Tenis</a>
-        <a href="#" style="color: white; margin: 20px;">Ofertas</a>
-        <a href="#" style="color: white; margin: 20px;">Contacto</a>
-
-    </div>
+        <a href="#tenis" class="boton">Ver tenis</a>
+    </header>
 
     <!-- PRODUCTOS -->
-    <h2 style="text-align: center; color: #ffcc00;">
-        TENIS DESTACADOS
-    </h2>
+    <section class="seccion" id="tenis">
+        <div class="contenedor">
+            <h2 class="titulo">Tenis destacados</h2>
+            <p class="subtitulo">Elige tu par y pídelo por WhatsApp.</p>
 
-    <div style="text-align: center;">
+            <div class="productos">
 
-        <!-- PRODUCTO 1 -->
-        <div style="
-            background-color: #222222;
-            display: inline-block;
-            width: 250px;
-            margin: 15px;
-            padding: 15px;
-        ">
+                <!-- PRODUCTO 1 -->
+                <article class="tarjeta">
+                    <div class="foto">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl-nBHXBoaHvj1J0Rvtc492pUjIEo6nF29gxVKaiVM_g&s=10" alt="Tenis Dior B23">
+                    </div>
+                    <h3>Dior B23</h3>
+                    <p>Tenis clásicos de diseñador.</p>
+                    <div class="precio">$4,500 MXN</div>
+                    <a class="boton" href="https://wa.me/523334929619?text=Hola%2C%20quiero%20comprar%20los%20Dior%20B23" target="_blank" rel="noopener">Comprar</a>
+                </article>
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl-nBHXBoaHvj1J0Rvtc492pUjIEo6nF29gxVKaiVM_g&s=10"
-                 width="250">
+                <!-- PRODUCTO 2 -->
+                <article class="tarjeta">
+                    <div class="foto">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhiIQHIzaetvtmDc-iJKDccAiS92_XuBKNe-aLybYXpQ&s=10" alt="Tenis On Cloud Monster Void">
+                    </div>
+                    <h3>On Cloud Monster Void</h3>
+                    <p>Diseño moderno y cómodo.</p>
+                    <div class="precio">$2,800 MXN</div>
+                    <a class="boton" href="https://wa.me/523334929619?text=Hola%2C%20quiero%20comprar%20los%20On%20Cloud%20Monster%20Void" target="_blank" rel="noopener">Comprar</a>
+                </article>
 
-            <h2>Dior b23 </h2>
+                <!-- PRODUCTO 3 -->
+                <article class="tarjeta">
+                    <div class="foto">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuatmGgFhFDlJJV2NrCpKm56cIxL9GUYQ0JF3TyNf7Fg&s=10" alt="Tenis LV Trainer">
+                    </div>
+                    <h3>LV Trainer</h3>
+                    <p>Un estilo clásico y exclusivo.</p>
+                    <div class="precio">$3,200 MXN</div>
+                    <a class="boton" href="https://wa.me/523334929619?text=Hola%2C%20quiero%20comprar%20los%20LV%20Trainer" target="_blank" rel="noopener">Comprar</a>
+                </article>
 
-            <p>Tenis clásicos de diseñador.</p>
-
-            <h3 style="color: #00ff66;">$4,500 MXN</h3>
-
-            <button style="
-                background-color: #ffcc00;
-                border: none;
-                padding: 10px 20px;
-            ">
-                Comprar
-            </button>
-
+            </div>
         </div>
-
-
-        <!-- PRODUCTO 2 -->
-        <div style="
-            background-color: #222222;
-            display: inline-block;
-            width: 250px;
-            margin: 15px;
-            padding: 15px;
-        ">
-
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhiIQHIzaetvtmDc-iJKDccAiS92_XuBKNe-aLybYXpQ&s=10"
-             height="230"   width="250">
-           
-            <h2>On cloud Monster Void</h2>
-
-            <p>Diseño moderno y cómodo.</p>
-
-            <h3 style="color: #00ff66;">$2,800 MXN</h3>
-
-            <button style="
-                background-color: #ffcc00;
-                border: none;
-                padding: 10px 20px;
-            ">
-                Comprar
-            </button>
-
-        </div>
-
-
-        <!-- PRODUCTO 3 -->
-        <div style="
-            background-color: #222222;
-            display: inline-block;
-            width: 250px;
-            margin: 15px;
-            padding: 15px;
-        ">
-
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuatmGgFhFDlJJV2NrCpKm56cIxL9GUYQ0JF3TyNf7Fg&s=10"
-                 width="250">
-
-            <h2>LV trainer </h2>
-
-            <p>Un estilo clásico y exclusivo.</p>
-
-            <h3 style="color: #00ff66;">$3,200 MXN</h3>
-
-            <button style="
-                background-color: #ffcc00;
-                border: none;
-                padding: 10px 20px;
-            ">
-                Comprar
-            </button>
-
-        </div>
-
-    </div>
-
+    </section>
 
     <!-- OFERTA -->
-    <div style="
-        background-color: #ffcc00;
-        color: black;
-        text-align: center;
-        padding: 40px;
-        margin-top: 30px;
-    ">
-
-        <h2>🔥 OFERTA ESPECIAL 🔥</h2>
-
+    <section class="oferta" id="ofertas">
+        <h2>Oferta especial</h2>
         <p>Hasta 20% de descuento en tenis seleccionados.</p>
-
-        <button style="
-            background-color: black;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-        ">
-            VER OFERTAS
-        </button>
-
-    </div>
-
+        <a class="boton oscuro" href="#tenis">Ver ofertas</a>
+    </section>
 
     <!-- CONTACTO -->
-    <div style="
-        background-color: #222222;
-        text-align: center;
-        padding: 30px;
-    ">
+    <section class="seccion contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Contacto</h2>
+            <p class="subtitulo">Escríbenos y te ayudamos con tu talla y tu pedido.</p>
 
-        <h2>Contacto</h2>
+            <div class="contacto-datos">
+                <div class="dato">
+                    <span>Instagram</span>
+                    <a href="https://instagram.com/Monkeykicks" target="_blank" rel="noopener">@Monkeykicks</a>
+                </div>
+                <div class="dato">
+                    <span>WhatsApp</span>
+                    <a href="https://wa.me/523334929619" target="_blank" rel="noopener">33 3492 9619</a>
+                </div>
+                <div class="dato">
+                    <span>Envíos</span>
+                    <strong>A todo México</strong>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <p>Instagram: @Monkeykicks</p>
-        <p>WhatsApp: 33 3492 9619</p>
-        <p>Envíos a todo México 🇲🇽</p>
-
-    </div>
-
-   
-    <!-- PIE DE PAGINA -->
-    <div style="
-        background-color: black;
-        text-align: center;
-        padding: 15px;
-    ">
-
-        <p>© 2026 MOnkey Kicks</p>
-
-    </div>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 Monkey Kicks. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
-
 </html>
