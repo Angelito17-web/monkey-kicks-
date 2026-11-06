@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Monkey Kicks | Tenis de diseñador</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
   <header>
     <a class="marca" href="index.html">
-      <img src=monkey-kicks-logo.png" alt="Logo de Monkey Kicks">
+      <img src="assets/img/monkey-kicks-logo.png" alt="Logo de Monkey Kicks">
       <span>Monkey Kicks</span>
     </a>
     <nav>
@@ -20,39 +20,78 @@
   </header>
   <main>
     <section class="portada">
+      <div class="emoji">🐵</div>
       <h1>MONKEY KICKS</h1>
-      <p>Tenis de diseñador. Estilo, exclusividad y calidad.</p>
-      <a class="boton" href="tenis.html">Ver tenis</a>
+      <p>Tenis de diseñador con una gran personalidad</p>
+      <img src="assets/img/monkey-kicks-logo.png" alt="Logo de Monkey Kicks">
+      <br>
+      <a class="boton" href="#quienes">Conócenos</a>
     </section>
 
-    <h2>Tenis destacados</h2>
-    <div class="modelos">
-      <div class="modelo">
-        <h3>Modelo 1</h3>
-        <p>Edición exclusiva.</p>
-        <span class="precio">$1,800 MXN</span>
-      </div>
-      <div class="modelo">
-        <h3>Modelo 2</h3>
-        <p>Cómodo para todo el día.</p>
-        <span class="precio">$1,500 MXN</span>
-      </div>
-      <div class="modelo">
-        <h3>Modelo 3</h3>
-        <p>Diseño limitado.</p>
-        <span class="precio">$2,100 MXN</span>
-      </div>
-    </div>
+    <section id="quienes">
+      <p class="etiqueta">Nuestra marca</p>
+      <h2>¿Quiénes somos?</h2>
+      <p>Monkey Kicks es una tienda de tenis de diseñador pensada para quienes quieren verse bien y sentirse cómodos.</p>
+      <p>Buscamos modelos exclusivos y los revisamos uno por uno antes de enviarlos.</p>
+    </section>
 
-    <h2>¿Por qué Monkey Kicks?</h2>
-    <ul>
-      <li>Modelos que no encuentras en cualquier tienda.</li>
-      <li>Revisamos cada par antes de enviarlo.</li>
-      <li>Pides fácil por WhatsApp.</li>
-    </ul>
+    <section>
+      <p class="etiqueta">Datos rápidos</p>
+      <h2>Ficha de Monkey Kicks</h2>
+      <div class="ficha">
+        <div class="dato"><span>Fundada</span><strong>2026</strong></div>
+        <div class="dato"><span>Productos</span><strong>Tenis</strong></div>
+        <div class="dato"><span>Envíos</span><strong>Todo México</strong></div>
+        <div class="dato"><span>Atención</span><strong>Lun a Sáb</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <p class="etiqueta">Lo que nos define</p>
+      <h2>Lo que ofrece Monkey Kicks</h2>
+      <div class="modelos">
+        <div class="modelo"><h3>Estilo</h3><p>Diseños que destacan en cualquier lugar.</p></div>
+        <div class="modelo"><h3>Comodidad</h3><p>Tenis para usar todo el día.</p></div>
+        <div class="modelo"><h3>Exclusividad</h3><p>Modelos difíciles de encontrar.</p></div>
+        <div class="modelo"><h3>Confianza</h3><p>Revisamos cada par antes de enviarlo.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <p class="etiqueta">Catálogo</p>
+      <h2>Tenis destacados</h2>
+      <div class="modelos">
+        <div class="modelo">
+          <img src="assets/img/tenis1.jpg" alt="Tenis Dior B23 High">
+          <h3>Dior B23 High</h3>
+          <p>Alta, con el monograma Oblique.</p>
+          <span class="precio">$2,100 MXN</span>
+        </div>
+        <div class="modelo">
+          <img src="assets/img/tenis2.jpg" alt="Tenis Off-White Vulcanized negros">
+          <h3>Off-White Vulcanized</h3>
+          <p>Negra, con las flechas y la suela de rayas.</p>
+          <span class="precio">$1,800 MXN</span>
+        </div>
+        <div class="modelo">
+          <img src="assets/img/tenis3.jpg" alt="Tenis On Cloudmonster negros">
+          <h3>On Cloudmonster</h3>
+          <p>Negra total, con suela amortiguada.</p>
+          <span class="precio">$1,500 MXN</span>
+        </div>
+      </div>
+      <p><a class="boton" href="tenis.html">Ver todos los tenis</a></p>
+    </section>
+
+    <section>
+      <p class="etiqueta">Nuestra historia</p>
+      <h2>Un pequeño negocio con grandes ideas</h2>
+      <p>Monkey Kicks nació como un proyecto escolar y busca crecer ofreciendo buenos tenis con atención cercana y precios claros.</p>
+    </section>
   </main>
   <footer>
-    <p>&copy; <span id="anio">2026</span> Monkey Kicks </p>
+    <p>&copy; <span id="anio">2026</span> Monkey Kicks &middot; Proyecto Monkey Kicks &middot; Autor: José Ángel Tiburcio</p>
   </footer>
+  <script src="JS/script.js"></script>
 </body>
 </html>

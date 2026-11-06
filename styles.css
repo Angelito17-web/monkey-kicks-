@@ -1,4 +1,4 @@
-
+/* Estilos simples de Monkey Kicks */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -80,3 +80,15 @@ input, select, textarea {
 /* Pie de página */
 footer { text-align: center; padding: 25px 5%; border-top: 1px solid #333; color: #888; font-size: 0.9rem; }
 footer p { color: #888; margin: 0; }
+
+/* Portada con foto, ficha y tarjetas */
+.portada img { width: 160px; height: 160px; border-radius: 50%; margin: 20px 0; }
+.emoji { font-size: 3rem; }
+.ficha { display: flex; flex-wrap: wrap; gap: 15px; }
+.dato { flex: 1 1 180px; border: 1px solid #333; border-radius: 10px; padding: 15px; text-align: center; }
+.dato span { display: block; color: #888; font-size: 0.9rem; }
+.dato strong { font-size: 1.2rem; }
+.etiqueta { color: #888; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; margin-top: 30px; }
+
+/* Fotos de tenis */
+.modelo img { width: 100%; height: 200px; object-fit: contain; background: #fff; border-radius: 8px; margin-bottom: 10px; }
