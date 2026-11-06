@@ -1,112 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Monkey Kicks | Tenis de diseñador</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monkey Kicks | Tenis de diseñador</title>
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
-
 <body>
-
-    <!-- MENÚ -->
+  <header>
+    <a class="marca" href="index.html">
+      <img src="assets/img/monkey-kicks-logo.png" alt="Logo de Monkey Kicks">
+      <span>Monkey Kicks</span>
+    </a>
     <nav>
-        <a href="#inicio" class="logo">Monkey Kicks</a>
-        <div class="enlaces">
-            <a href="#inicio">Inicio</a>
-            <a href="#tenis">Tenis</a>
-            <a href="#ofertas">Ofertas</a>
-            <a href="#contacto">Contacto</a>
-        </div>
+      <a href="index.html" class="activo">Inicio</a>
+      <a href="tenis.html">Tenis</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
-
-    <!-- ENCABEZADO -->
-    <header class="hero" id="inicio">
-        <h1>MONKEY KICKS</h1>
-        <h2>Tenis de diseñador</h2>
-        <p>Estilo. Exclusividad. Calidad.</p>
-        <a href="#tenis" class="boton">Ver tenis</a>
-    </header>
-
-    <!-- PRODUCTOS -->
-    <section class="seccion" id="tenis">
-        <div class="contenedor">
-            <h2 class="titulo">Tenis destacados</h2>
-            <p class="subtitulo">Elige tu par y pídelo por WhatsApp.</p>
-
-            <div class="productos">
-
-                <!-- PRODUCTO 1 -->
-                <article class="tarjeta">
-                    <div class="foto">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl-nBHXBoaHvj1J0Rvtc492pUjIEo6nF29gxVKaiVM_g&s=10" alt="Tenis Dior B23">
-                    </div>
-                    <h3>Dior B23</h3>
-                    <p>Tenis clásicos de diseñador.</p>
-                    <div class="precio">$4,500 MXN</div>
-                    <a class="boton" href="https://wa.me/523334929619?text=Hola%2C%20quiero%20comprar%20los%20Dior%20B23" target="_blank" rel="noopener">Comprar</a>
-                </article>
-
-                <!-- PRODUCTO 2 -->
-                <article class="tarjeta">
-                    <div class="foto">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhiIQHIzaetvtmDc-iJKDccAiS92_XuBKNe-aLybYXpQ&s=10" alt="Tenis On Cloud Monster Void">
-                    </div>
-                    <h3>On Cloud Monster Void</h3>
-                    <p>Diseño moderno y cómodo.</p>
-                    <div class="precio">$2,800 MXN</div>
-                    <a class="boton" href="https://wa.me/523334929619?text=Hola%2C%20quiero%20comprar%20los%20On%20Cloud%20Monster%20Void" target="_blank" rel="noopener">Comprar</a>
-                </article>
-
-                <!-- PRODUCTO 3 -->
-                <article class="tarjeta">
-                    <div class="foto">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuatmGgFhFDlJJV2NrCpKm56cIxL9GUYQ0JF3TyNf7Fg&s=10" alt="Tenis LV Trainer">
-                    </div>
-                    <h3>LV Trainer</h3>
-                    <p>Un estilo clásico y exclusivo.</p>
-                    <div class="precio">$3,200 MXN</div>
-                    <a class="boton" href="https://wa.me/523334929619?text=Hola%2C%20quiero%20comprar%20los%20LV%20Trainer" target="_blank" rel="noopener">Comprar</a>
-                </article>
-
-            </div>
-        </div>
+  </header>
+  <main>
+    <section class="portada">
+      <h1>MONKEY KICKS</h1>
+      <p>Tenis de diseñador. Estilo, exclusividad y calidad.</p>
+      <a class="boton" href="tenis.html">Ver tenis</a>
     </section>
 
-    <!-- OFERTA -->
-    <section class="oferta" id="ofertas">
-        <h2>Oferta especial</h2>
-        <p>Hasta 20% de descuento en tenis seleccionados.</p>
-        <a class="boton oscuro" href="#tenis">Ver ofertas</a>
-    </section>
+    <h2>Tenis destacados</h2>
+    <div class="modelos">
+      <div class="modelo">
+        <h3>Modelo 1</h3>
+        <p>Edición exclusiva.</p>
+        <span class="precio">$1,800 MXN</span>
+      </div>
+      <div class="modelo">
+        <h3>Modelo 2</h3>
+        <p>Cómodo para todo el día.</p>
+        <span class="precio">$1,500 MXN</span>
+      </div>
+      <div class="modelo">
+        <h3>Modelo 3</h3>
+        <p>Diseño limitado.</p>
+        <span class="precio">$2,100 MXN</span>
+      </div>
+    </div>
 
-    <!-- CONTACTO -->
-    <section class="seccion contacto" id="contacto">
-        <div class="contenedor">
-            <h2 class="titulo">Contacto</h2>
-            <p class="subtitulo">Escríbenos y te ayudamos con tu talla y tu pedido.</p>
-
-            <div class="contacto-datos">
-                <div class="dato">
-                    <span>Instagram</span>
-                    <a href="https://instagram.com/Monkeykicks" target="_blank" rel="noopener">@Monkeykicks</a>
-                </div>
-                <div class="dato">
-                    <span>WhatsApp</span>
-                    <a href="https://wa.me/523334929619" target="_blank" rel="noopener">33 3492 9619</a>
-                </div>
-                <div class="dato">
-                    <span>Envíos</span>
-                    <strong>A todo México</strong>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PIE DE PÁGINA -->
-    <footer>
-        <p>© 2026 Monkey Kicks. Todos los derechos reservados.</p>
-    </footer>
-
+    <h2>¿Por qué Monkey Kicks?</h2>
+    <ul>
+      <li>Modelos que no encuentras en cualquier tienda.</li>
+      <li>Revisamos cada par antes de enviarlo.</li>
+      <li>Pides fácil por WhatsApp.</li>
+    </ul>
+  </main>
+  <footer>
+    <p>&copy; <span id="anio">2026</span> Monkey Kicks </p>
+  </footer>
 </body>
 </html>
